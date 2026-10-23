@@ -1,41 +1,52 @@
-# UnityPracticas2D
+# Prácticas de Unity 2D
 
-Proyecto académico de Unity 2D con 15 escenas.
+Proyecto académico de la materia **Gestión del Proceso de Desarrollo de Software**, de la carrera de Ingeniería en Desarrollo y Gestión de Software.
 
-## Versión
-Unity 6000.6.4f1.
+El proyecto reúne 15 actividades realizadas con Unity 2D para practicar el uso de escenas, movimiento de personajes, físicas, colisiones, fuerzas y el sistema de entrada.
 
-## Escenas
-Las escenas están en `Assets/Scenes/`. Los scripts C# están en `Assets/Scripts/`.
+## Actividades
 
-## Controles
-- Flechas: mover.
-- WASD: controles alternativos en la actividad 8.
-- Espacio: acción física o impulso en las prácticas que la implementan.
-- C: cambiar color.
+1. **SampleScene:** Objetos simples.
+2. **Scene 1:** Físicas básicas.
+3. **Plinko.**
+4. **Script Movimiento:** Movimiento básico.
+5. **Clase 3:** Actividad 1.
+6. **Nave.**
+7. **Clase 4:** Actividad 1 — Movimiento con flechas.
+8. **Clase 4:** Actividad 2 — Cambiar las teclas.
+9. **Clase 5:** Ejercicio 1 — Movimiento directo con Transform.
+10. **Clase 5:** Ejercicio 2 — Impulsos y fuerzas con Rigidbody2D.
+11. **Clase 5:** Ejercicio 3 — Velocidad, gravedad y colisiones.
+12. **New Input System:** Configurar las acciones de entrada.
+13. **New Input System:** Mover un personaje.
+14. **Físicas 2D:** Fuerzas, impulso y cambio de color.
+15. **Reto final:** Migrar la nave de equilibrio.
 
-## Ejecutar
-Abre la carpeta del proyecto desde Unity Hub y ejecuta la escena deseada.
+## Cómo abrir el proyecto
 
-## Estado
-La generación automatizada debe completarse en el Editor Unity. La existencia de archivos no equivale a una prueba de ejecución en Play Mode. Consulta la tabla de trazabilidad al final de este archivo.
+1. Descarga o clona este repositorio.
+2. Abre Unity Hub.
+3. Selecciona **Add project from disk**.
+4. Elige la carpeta `UnityPracticas2D`.
+5. Abre el proyecto con Unity `6000.6.4f1`.
+6. En la ventana **Project**, entra en `Assets/Scenes` y abre la escena que quieras revisar.
+7. Pulsa **Play** para ejecutar la escena.
 
-## Trazabilidad
+## Tecnologías
 
-| # | Actividad | Escena | Comportamiento esperado | Verificación |
-|---:|---|---|---|---|
-| 1 | SampleScene | `Assets/Scenes/SampleScene.unity` | Objetos simples y figuras | Pendiente de validar en Play Mode |
-| 2 | Scene 1 | `Assets/Scenes/Scene 1.unity` | Físicas básicas | Pendiente de validar en Play Mode |
-| 3 | Plinko | `Assets/Scenes/Plinko.unity` | Obstáculos y objetos que caen | Pendiente de validar en Play Mode |
-| 4 | Script Movimiento (Básico) | `Assets/Scenes/Script Movimiento (Básico).unity` | Movimiento básico | Pendiente de validar en Play Mode |
-| 5 | clase 3 Actividad 1 | `Assets/Scenes/clase 3 Actividad 1.unity` | Objetos y movimiento | Pendiente de validar en Play Mode |
-| 6 | Nave | `Assets/Scenes/Nave.unity` | Nave triangular | Pendiente de validar en Play Mode |
-| 7 | clase 4 Actividad 1 - Movimiento con flechas | `Assets/Scenes/clase 4 Actividad 1 - Movimiento con flechas.unity` | Flechas, impulso y color | Pendiente de validar en Play Mode |
-| 8 | clase 4 Actividad 2 - Cambiar las teclas | `Assets/Scenes/clase 4 Actividad 2 - Cambiar las teclas.unity` | WASD | Pendiente de validar en Play Mode |
-| 9 | clase 5 Ejercicio 1 - Movimiento directo con Transform | `Assets/Scenes/clase 5 Ejercicio 1 - Movimiento directo con Transform.unity` | Transform | Pendiente de validar en Play Mode |
-| 10 | clase 5 Ejercicio 2 - Impulsos y fuerzas con Rigidbody2D | `Assets/Scenes/clase 5 Ejercicio 2 - Impulsos y fuerzas con Rigidbody2D.unity` | Rigidbody2D y espacio | Pendiente de validar en Play Mode |
-| 11 | clase 5 Ejercicio 3 - Velocidad, gravedad y colisiones | `Assets/Scenes/clase 5 Ejercicio 3 - Velocidad, gravedad y colisiones.unity` | Gravedad y colisiones | Pendiente de validar en Play Mode |
-| 12 | Ejercicio 1 - Configurar las acciones de entrada | `Assets/Scenes/Ejercicio 1 - Configurar las acciones de entrada.unity` | Configuración de entrada | Pendiente de validar en Play Mode |
-| 13 | Ejercicio 2 - Mover un personaje con el New Input System | `Assets/Scenes/Ejercicio 2 - Mover un personaje con el New Input System.unity` | New Input System | Pendiente de validar en Play Mode |
-| 14 | Ejercicio 3 | `Assets/Scenes/Ejercicio 3.unity` | Movimiento e interacción | Pendiente de validar en Play Mode |
-| 15 | Reto final - Migrar la nave de equilibrio | `Assets/Scenes/Reto final - Migrar la nave de equilibrio.unity` | Migración de controles de la nave | Pendiente de validar en Play Mode |
+- Unity 2D
+- C#
+- Rigidbody2D y físicas 2D
+- Input System
+
+## Autor
+
+**Lenin Ramon Lopez Cordova**
+
+Universidad Tecnológica de Cancún  
+Ingeniería en Desarrollo y Gestión de Software  
+Grupo: IDYGS101
+
+**Profesor:** Ing. Luis Fernando Villafaña Rejón  
+**Materia:** Gestión del Proceso de Desarrollo de Software  
+**Fecha:** 22/10/2026
